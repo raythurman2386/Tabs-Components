@@ -13,10 +13,11 @@ class TabLink {
     this.tabItem = new TabItem(this.tabItem);
 
     // Add a click event listener on this instance, calling the select method on click
-
+    this.element.addEventListener('click', () => this.select());
   };
 
   select() {
+    console.log('clicked');
     // Get all of the elements with the tabs-link class
     // const links;
 
