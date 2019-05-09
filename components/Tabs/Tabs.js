@@ -42,14 +42,14 @@ class TabItem {
   constructor(element) {
     // Assign this.element to the passed in element
     this.element = element;
-    console.log(element)
+    // console.log(element)
   }
 
   select() {
-    console.log('clicked');
+    // console.log('clicked');
     // Select all ".tabs-item" elements from the DOM
     const items = document.querySelectorAll('.tabs-item');
-    console.log(items);
+    // console.log(items);
 
     // Remove the class "tabs-item-selected" from each element
     Array.from(items).forEach(item => {
