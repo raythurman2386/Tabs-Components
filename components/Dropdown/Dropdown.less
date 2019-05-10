@@ -25,6 +25,7 @@
     align-items: center;
     margin-top: 10px;
     border: 2.5px solid @lambda-red;
+    transition: 0.7s;
   }
 
   .dropdown-link {
@@ -42,6 +43,9 @@
   }
 
   .dropdown-hidden {
-    display: none;
+    // display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
   }
 }
