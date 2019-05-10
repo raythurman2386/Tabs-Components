@@ -49,6 +49,7 @@ class TabItem {
     // console.log('clicked');
     // Select all ".tabs-item" elements from the DOM
     const items = document.querySelectorAll('.tabs-item');
+
     // console.log(items);
 
     // Remove the class "tabs-item-selected" from each element
@@ -58,6 +59,7 @@ class TabItem {
 
     // Add a class named "tabs-item-selected" to this element
     this.element.classList.add('tabs-item-selected');
+
   }
 }
 
